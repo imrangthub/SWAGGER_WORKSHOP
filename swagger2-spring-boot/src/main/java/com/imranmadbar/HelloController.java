@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
 
-    @GetMapping("/")
+    @GetMapping("/hello")
     public String apHome() {
         return "Hello World Swagger  application";
     }
